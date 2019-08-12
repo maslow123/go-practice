@@ -1,0 +1,5 @@
+File
+======================================================================================================================
+    Pembuatan file di go sangat mudah, cukup memanggil fungsi os.Create() lalu memasukkan file path yang ingin dibuat 
+sebagai parameter. Jika ternyata file yang akan dibuat sudah ada, maka akan ditimpa. Bisa memanfaatkan os.IsNotExist() untuk mendeteksi apakah file sudah ada atau belum
+

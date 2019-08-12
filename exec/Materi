@@ -1,0 +1,7 @@
+Exec
+======================================================================================================================
+    Exec digunakan untuk eksekusi perintah command line lewat kode program. Command yang bisa dieksekusi adalah semua 
+command yang bisa di eksekusi diterminal / CMD
+
+selain *.Output()* ada sangat banyak sekali API untuk keperluan komunikasi dengan OS/CLI yang bisa dipergunakan.
+Detailnya silakan langsung merujuk ke dokumentasi https://golang.org/pkg/os/exec

@@ -1,0 +1,5 @@
+Defer & Exit
+======================================================================
+Defer digunakan untuk mengakhiri eksekusi sebuah statement tepat sebelum blok fungsi selesai. Sedangkan 
+Exit digunakan untuk menghentikan program secara paksa.
+

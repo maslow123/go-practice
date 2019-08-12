@@ -1,0 +1,28 @@
+METHOD                  Return Type                 Penjelasan
+===================================================================================================================
+now.Year()              int                         Tahun
+now.YearDay()           int                         Hari ke- ? dimulai awal Tahun
+now.Month()             int                         Bulan
+now.Weekday()           int                         Nama hari. Bisa menggunakan now.Weekday().String() untuk mengambil bentuk stringnya
+now.ISOWeek()           (int, int)                  Tahun dan minggu ke- ? mulai awal Tahun
+now.Day()               int                         Tanggal
+now.Hour()              int                         Jam
+now.Minute()            int                         Menit
+now.Second()            int                         Detik
+now.Nanosecond()        int                         Nano Detik
+now.Local()             time.Time                   Date-time dalam timezone lokal
+now.Location()          *time.Location              Mengambil informasi, apakah local atau UTC. Bisa menggunakan 
+                                                    now.Location().String() untuk mengambil stringnya
+now.Zone()              (string, int)               Mengembalikan informasi timezone offset dalam string dan numerik.
+                                                    Sebagai contoh WIB, 25200
+now.isZero()            bool                        Deteksi apakah nilai object now adalah 01 Januari tahun 1, 00:00:00 UTC
+                                                    Jika iya maka bernilai true
+now.UTC()               time.Time                   Date-time dalam timezone UTC
+now.Unix()              int64                       Date-time dalam format unix time
+now.UnixNano()          string                      Date-time dalam string              
+
+=========================================================================================================================
+                                    LAYOUT FORMAT WAKTU PADA GO
+                        file:///C:/Users/Maslow/Downloads/dasarpemrogramangolang.pdf (131)
+                                    LAYOUT FORMAT UNTUK KEPERLUAN PARSING TIME
+                        file:///C:/Users/Maslow/Downloads/dasarpemrogramangolang.pdf (132)

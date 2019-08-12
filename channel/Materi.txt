@@ -1,0 +1,7 @@
+Channel Direction
+======================================================================
+ch chan string                  Parameter ch bisa digunakan untuk mengirim dan menerima data
+ch chan <- string               Parameter ch hanya bisa digunakan untuk mengirim data
+ch <- chan string               Parameter ch hanya bisa digunakan untuk menerima data
+
+

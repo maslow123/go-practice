@@ -1,0 +1,12 @@
+    Package *encoding/base64*, berisikan fungsi-fungsi untuk kebutuhan *encode* dan *decode* data ke base64 dan
+sebaliknya.Data yang akan di encode harus bertipe []byte, perlu dilakukan casting untuk data-data yang belum sesuai tipenya.
+
+Penerapan Fungsi
+=====================================================================================================================
+EncodeToString()            : digunakan untuk encode data dari bentuk string ke base64
+DecodeString()              : melakukan kebalikan dari *EncodeToString()*
+
+Encode & Decode Data URL
+=====================================================================================================================
+    Khusus encode data string yang isinya merupakan URL, lebih efektif menggunakan *URLEncoding* dibanding *StdEncoding*.
+Cara penerapannya kurang lebih sama, bisa menggunakan metode pertama maupun metode kedua yang sudah dibahas tadi

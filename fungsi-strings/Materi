@@ -1,0 +1,23 @@
+Fungsi Strings
+============================================================================================
+strings.Contains()           : Dipakai untuk mendeteksi apakah string(parameter kedua) merupakan bagian dari                                             string lain(parameter pertama). Nilai kembaliannya berupa bool
+
+strings.HasPrefix()          : Digunakan untuk mendeteksi apakah sebuah string(parameter pertama) diawali string tertentu                                (parameter kedua)
+
+strings.HasSufix             : Digunakan untuk mendeteksi apakah string(parameter pertama) diakhiri string tertentu                                      (parameter kedua)
+
+strings.Count()              : Memiliki kegunaan untuk menghitung jumlah karakter tertentu(parameter kedua) dari sebuah                                  string (parameter pertama)
+
+strings.Index()              : Digunakan untuk mencari posisi indeks sebuah string(parameter kedua) dalam string                                         (parameter pertama)
+
+strings.Replace()            : Digunakan untuk mengganti bagian dari string dengan string tertentu
+
+strings.Repeat()             : Digunakan untuk mengulang string(parameter pertama) sebanyak yang ditentukan(parameter                                    kedua)
+
+strings.Split()              : Digunakan untuk memisahkan string(parameter pertama) dengan tanda pemisah bisa ditentukan                                 sendiri(parameter kedua) dan hasilnya berupa array string
+
+strings.Join()               : Kebalikan dari Split, digunakan untuk menggabungkan array string(parameter pertama)                                       menjadi sebuah string dengan pemisah tertentu(parameter kedua)
+
+strings.ToUpper()            : Mengubah string menjadi huruf besar
+
+strings.ToLower()            : Mengubah string menjadi huruf kecil

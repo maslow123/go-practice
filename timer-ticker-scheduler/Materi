@@ -1,0 +1,3 @@
+Ada beberapa fungsi dalam package *time* yang bisa dimanfaatkan untuk menunda atau mengatur jadwal eksekusi sebuah proses dalam jeda waktu tertentu
+
+Selain timer, go juga menyediakan fungsi scheduler(yang kita sebut Ticker)

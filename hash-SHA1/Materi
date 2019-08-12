@@ -1,0 +1,12 @@
+Hash SHA1
+======================================================================================================================
+    Hash adalah algoritma enkripsi untuk mengubah text menjadi deretan karakter acak. Jumlah karakter hasil hash selalu
+sama. Hash termasuk one-way encryption, membuat hasil dari hash tidak bisa dikembalikan ke text asli
+
+SHA1 atau *Secure Hash Algoritma 1* merupakan salah satu algoritma hashing yang sering digunakan untuk ekripsi data. Hasil dari sha1 adalah data dengan lebar 20byte atau 160bit, biasa ditampilkan dalam bentuk bilangan heksadesimal 40digit
+
+Metode Salting Pada Hash SHA1
+======================================================================================================================
+    Salt dalam konteks kriptografi adalah data acak yang digabungkan pada data asli sebelum proses hash dilakukan.
+Hash merupakan ekripsi satu arah dengan lebar data yang sudah pasti, sangat mungkin sekali kalau hasil hash untuk beberapa data adalah sama. Disinilah kegunaan *Salt*, teknik ini berguna untuk mencegah serangan menggunakan metode pencocokan data-data yang hashnya adalah sama(dictionary attack).
+

@@ -1,0 +1,20 @@
+Konversi Menggunakan Strconv
+=====================================================================================================
+    Package strconv berisi banyak fungsi yang sangat membantu untuk melakukan konversi. Berikut merupakan beberapa fungsi
+yang ada dalam package tersebut
+- strconv.Atoi()        : konversi dari tipe data *string* ke *int*, dan mengembalikan 2 buah nilai kembalian, yaitu                                hasilkonversi dan error(jika konversi sukses, maka error bernilai *nil*)
+- strconv.Itoa()        : merupakan kebalikan dari strconv.Atoi(), yaitu *string* ke *int*
+- strconv.parseInt()    : Digunakan untuk konversi *string* berbentuk numerik dengan basis tertentu ke tipe numerik                                 non-desimal dengan lebar data bisa ditentukan.
+- strconv.FormatInt()   : Berguna untuk konversi data numerik *int64* ke *string* dengan basis numerik bisa ditentukan                              sendiri
+- strconv.ParseFloat()  : Digunakan untuk konversi *string* ke numerik desimal dengan lebar data bisa ditentukan
+- strconv.FormatFloat() : Berguna untuk konversi data bertipe *float64* ke *string* dengan format eksponen, lebar digit                             desimal, dan lebar tipe data bisa ditentukan 
+                          (file:///C:/Users/Maslow/Downloads/dasarpemrogramangolang.pdf) (139)
+- strconv.parseBool()   : Digunakan untuk konversi dari *string* ke *bool*
+
+Konversi Data Menggunakan Teknik Casting
+======================================================================================================
+Keyword tipe data bisa digunakan untuk casting, atau konversi antar tipe data. Cara penggunaannya adalah dengan menuliskan tipe data tujuan casting sebagai fungsi, lalu menyisipkan data yang akan di konversi sebagai parameter fungsi tersebut
+
+Type Assertions Pada Interface Kosong ( interface{} )
+======================================================================================================
+Type Assertions merupakan teknik untuk mengambil tipe data konkret dari data yang terbungkus dalam *interface{}*. Jadi bisa disimpulkan bahwa teknik type Assertions hanya bisa dilakukan pada data bertipe *interface{}*

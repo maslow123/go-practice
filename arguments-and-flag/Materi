@@ -1,0 +1,17 @@
+Arguments dan Flag
+=======================================================================================================================
+    Arguments adalah data opsional(tambahan) yang disisipkan ketika eksekusi program, sedangkan Flag merupakan ekstensi
+dari argument. Dengan flag, penulisan argument menjadi rapi dan terstruktur
+
+Fungsi flag tiap tipe data
+=======================================================================================================================
+Nama Fungsi                                         Return Value
+------------------------------------------------------------------------------------------------------------------------
+flag.Bool(name, defaultValue, usage)                : *bool
+flag.Duration(name, defaultValue, usage)            : *time.Duration
+flag.Float64(name, defaultValue, usage)             : *Float64
+flag.Int(name, defaultValue, usage)                 : *Int
+flag.Int64(name, defaultValue, usage)               : *Int64
+flag.String(name, defaultValue, usage)              : *String
+flag.Uint(name, defaultValue, usage)                : *Uint
+flag.Uint64(name, defaultValue, usage)              : *Uint64

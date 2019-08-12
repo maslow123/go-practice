@@ -1,0 +1,15 @@
+Regex
+================================================================================================
+Regex atau (regular expression) adalah suatu teknik yang digunakan untuk pencocokan string dengan pola tertentu. Regex biasa dimanfaatkan untuk pencarian dan pengubahan pada string.
+
+FindString()            : Digunakan untuk mencari string yang memenuhi kriteria regexp, dan fungsi ini hanya                                        mengembalikan 1 nilai saja dan 1 nilai itu merupakan nilai yang pertama saja
+
+FindStringIndex()       : Digunakan untuk mencari index string kembalian hasil dari operasi regexp
+
+FindAllString()         : Digunakan untuk mencari banyak string yang memenuhi kriteria regexp yang telah ditentukan
+
+ReplaceAllString()      : Digunakan untuk me-replace semua string yang memenuhi kriteria regexp, dengan string lain
+
+ReplaceAllStringFunc()  : Digunakan untuk me-replace semua string yang memenuhi kriteria regexp, dengan kondisi yang bisa                           ditentukan untuk setiap substring yang akan di replace
+
+Split()                 : Digunakan untuk memisah string dengan pemisah adalah substring yang memenuhi kriteria regexp                              yang telah ditentukan, jumlah karakter split bisa ditentukan dengan mengisi parameter kedua                               fungsi *regex.Split()*. Jika diisi -1 maka semua karakter yang memenuhi regex akan di replace,                            selain itu jika diisi 2 maka hanya 2 karakter pertama yang memenuhi regex akan di replace.

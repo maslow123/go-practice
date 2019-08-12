@@ -1,0 +1,8 @@
+Error, Panic, dan Recover
+====================================================================================
+Error merupakan sebuah tipe. Error memiliki 1 buah property berupa method error(), method ini mengembalikan detail pesan error dalam string, Error termasuk tipe yang isinya bisa nil
+
+Panic digunakan untuk menampilkan stack trace error sekaligus menghentikan flow goroutine(karena main() juga merupakan goroutine, maka behavior yang sama juga berlaku).
+Setelah panic, proses akan terhenti, apapun setelah tidak di-eksekusi kecuali proses yang sudah di defer sebelumnya.
+
+Recover berguna untuk meng-handle panic error. Pada saat panic error muncul, recover men-take over goroutine yang sedang panic(pesan panic tidak muncul)

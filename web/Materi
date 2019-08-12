@@ -1,0 +1,41 @@
+Web
+===================================================================================================================
+    Go menyediakan package *net/http* berisi berbagai macam fitur untuk keperluan pembuatan aplikasi berbasis web. 
+Termasuk didalamnya webserver, routing, templating, dan lainnya
+
+fungsi http.HandleFunc()        : untuk routing aplikasi web. Maksud dari routing adalah penentuan aksi ketika url                                          tertentu diakses oleh user, dan memiliki 2 parameter. Parameter 1 rute yang diinginkan,                                   dan parameter 2 merupakan callback, dan callback ini bertipe fungsi *func(w                                               http.ResponseWriter, r *http.Request)
+
+URL Parsing
+====================================================================================================================
+Data string url bisa di konversi kedalam bentuk url.URL. Dengan menggunakan tipe tersebut akan ada banyak informasi yang bisa dimanfaatkan, antara lain jenis protokol yang digunakan, path yang diakses, query, dan lain-lain.
+
+JSON
+====================================================================================================================
+Data json di GO akan dituliskan sebagai *string*, dengan menggunakan *json.Unmarshal*, json string bisa di konversi menjadi bentuk objek, entah itu dalam bentuk map[string]interface{} ataupun objek struct
+
+Encode objek ke JSON string
+Fungsi json.Marshal() digunakan untuk decoding data ke json string. Sumber data bisa berupa variable objek cetakan struct,*map[string]interface{}*, ataupun *slice*
+
+Webservice
+====================================================================================================================
+WebService Api adalah sebuah web yang menerima request dari client dan menghasilkan response, biasa berupa JSON/XML
+
+Penggunaan HTTP Request
+====================================================================================================================
+Package *net/http* selain berisikan tools untuk keperluan pembuatan web, juga berisikan fungsi-fungsi untuk melakukan http request. salah satunya adalah *http.NewRequest()*
+
+Secure & Insecure HTTP Request
+====================================================================================================================
+    -SQL
+        (https://github.com/golang/go/wiki/SQLDrivers)
+        pertama, unduh terlebih dahulu driver mysqlnya dengan memasukkan perintah 
+        *go get github.com/go-sql-driver/mysql*
+
+    - Insert, Update, & Delete Data Menggunakan *Exec()*
+        untuk operasi insert, update, dan delete dianjurkan untuk tidak menggunakan fungsi sql.Query() ataupun sql.QueryRow() untuk eksekusinya
+
+    -NoSQL (MongoDB)
+        (mongo-driver-go)
+        pertama, unduh terlebih dahulu driver mongodbnya dengan memasukkan perintah
+        *go get https://github.com/mongodb/mongo-go-driver*
+

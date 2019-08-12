@@ -1,0 +1,4 @@
+Testing
+========================================================================================================================
+    File untuk keperluan testing dipisah dengan file utama, namanya harus berakhiran _test.go, dan packagenya harus sama. 
+Unit test di go dituliskan dalam bentuk fungsi, yang memiliki parameter yang bertipe *testing.T, dengan nama fungsi harus diawali kata *Test*. Lewat parameter tersebut, kita bisa mengakses method2 keperluan testing
